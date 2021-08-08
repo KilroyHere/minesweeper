@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+h1{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.titleContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#gameCanvas{
+    display: block;
+    margin: auto;
+    background-color: beige;
+    border-style: solid;
+    border-width: 2px;
+}
