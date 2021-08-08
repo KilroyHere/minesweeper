@@ -23,7 +23,7 @@ class Cell {
 
   drawCell() {
     //Filled Rectangle  
-    let color = this.isBombed ? "#ff6459" : "#b8ffe4";
+    let color = this.isBombed ? "#ffabab" : "#feffd4";
     ctx.fillStyle = color;
     ctx.fillRect(this.posX, this.posY, this.size, this.size);
     //Rectangle Border
