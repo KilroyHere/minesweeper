@@ -5,16 +5,12 @@ h1{
     text-shadow: 4px 4px black  ;
 }
 
-body{
-
-}
 .titleContainer{
     display: flex;
     justify-content: center;
 }
 
 #gameCanvas{
-
     box-shadow: 5px 5px rgb(0, 0, 0);
     display: block;
     margin: auto;
