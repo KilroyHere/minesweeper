@@ -33,7 +33,7 @@ class Grid {
           j * cellSize,
           cellSize,
           isBombed,
-          "open"
+          "closed"
         );
       }
     }
