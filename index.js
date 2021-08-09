@@ -171,7 +171,7 @@ class Cell {
 
 function newGame(length){
   let gameOverText = document.querySelector("#overText");
-  gameOverText.style.display = "none";
+  gameOverText.style.visibility = "hidden";
   grid = new Grid(length);
   grid.drawGrid();
 }
@@ -180,7 +180,7 @@ newGame(gridLength);
 
 function gameOver(){
   let gameOverText = document.querySelector("#overText");
-  gameOverText.style.display = "block";
+  gameOverText.style.visibility = "visible";
 }
 
 canvas.addEventListener("click",function(event){

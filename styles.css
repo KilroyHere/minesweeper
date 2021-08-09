@@ -4,10 +4,11 @@ h1 {
   font-family: "Rubik Mono One", sans-serif;
   color: #ff9191;
   text-shadow: 4px 4px black;
+  margin-bottom: 0;
+  margin-top: 10px;
 }
 
-body {
-}
+
 
 button {
   font-size: x-large;
@@ -16,8 +17,8 @@ button {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10 px;
   border-radius: 5px;
   box-shadow: 3px 3px black;
 }
@@ -49,6 +50,7 @@ button:hover {
 .leftContainer {
   width: 20%;
   text-align: center;
+  padding-top: 5%;
 }
 
 .canvasContainer {
@@ -60,7 +62,7 @@ button:hover {
 }
 
 .flexContainer {
-  display: flex;
+  display: flex ;
   flex-direction: row;
   justify-content: space-around;
 }
@@ -89,7 +91,7 @@ button:hover {
 }
 
 #overText{
-  display: none;
+  visibility:hidden;
   animation: blinking 1.5s infinite;
   text-align: center;
   margin: 0;
