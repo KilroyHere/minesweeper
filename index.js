@@ -27,7 +27,7 @@ class Grid {
     }
     for (let i = 0; i < this.length; i++) {
       for (let j = 0; j < this.length; j++) {
-        let isBombed = Math.random() < 0.17;
+        let isBombed = Math.random() < 0.15;
         this.cellArray[i][j] = new Cell(
           i * cellSize,
           j * cellSize,
